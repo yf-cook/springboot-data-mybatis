@@ -34,4 +34,9 @@ public class StudentController {
        return student;
    }
 
+   @RequestMapping(value = "/index")
+    public String index(){
+        return "index";
+   }
+
 }
